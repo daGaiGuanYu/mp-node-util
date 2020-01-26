@@ -1,0 +1,19 @@
+{
+  "name": "mp-node-util",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daGaiGuanYu/mp-node-util.git"
+  },
+  "author": "gy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daGaiGuanYu/mp-node-util/issues"
+  },
+  "homepage": "https://github.com/daGaiGuanYu/mp-node-util#readme"
+}
