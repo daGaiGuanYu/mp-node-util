@@ -1,4 +1,5 @@
 const axios = require('axios')
+axios = axios.create({}) // 不影响其他 axios 的使用
 
 module.exports = class WxLogin {
   constructor(appid, secret){
