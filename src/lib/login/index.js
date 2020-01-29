@@ -8,5 +8,6 @@ module.exports = class WxLogin {
   }
   getOpenidByCode(code){
     return aaa(`https://api.weixin.qq.com/sns/jscode2session?appid=${this.appid}&secret=${this.secret}&js_code=${code}&grant_type=authorization_code`)
+      .then( res => res.data )
   }
 }
